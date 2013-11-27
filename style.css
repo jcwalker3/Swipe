@@ -7,6 +7,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, 
   vertical-align:baseline;
   background:transparent;
 }
+.newstyle {
+    font-weight: bold;
+}
 body {
   -webkit-text-size-adjust:none;
   font-family:sans-serif;
@@ -63,4 +66,22 @@ html, body {
   border-radius: 3px;
   border: 1px solid;
   border-color: #E5E5E5 #D3D3D3 #B9C1C6;
+}
+
+.box-title {
+  border-bottom: 1px dotted #000000;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 0 0 10px 10px;
+}
+
+.box-content {
+  padding-left: 0;
+  padding-top: 20px;
+}
+
+#sub-levels ul {
+  overflow: visible;
+  padding: 0;
+  position: relative;
 }
